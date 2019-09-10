@@ -2,7 +2,7 @@
 <head>
 <meta name = "keywords" content = "Blog Keywords">
 <meta name = "description" content = "Blog">
-<meta name = "author" content= "some nigga">
+<meta name = "author" content= "George Chkhikvadze">
 <meta name = "viewport" content = "width=device-width, initial-scale =1.0">
 <link rel = "stylesheet" type="text/css" href="style.css">
 </head>
