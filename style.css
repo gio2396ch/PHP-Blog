@@ -1,0 +1,166 @@
+@font-face{
+	font-family: Supernova;
+	src: url(Fonts/Supernova.ttf);
+}
+@font-face{
+	font-family: square;
+	src: url(Fonts/square.ttf);
+}
+@font-face{
+	font-family: Sketchy-Night;
+	src: url(Fonts/Sketchy-Night.otf);
+}
+@font-face{
+	font-family: Velarah-Regular;
+	src: url(Fonts/Velarah-Regular.ttf);
+}
+@font-face{
+	font-family:Aclonica;
+	src: url(Fonts/Aclonica.ttf);
+}
+#main-content{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:auto; 
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	background-image: url(Assets/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+}
+p{
+	font-family:Supernova;
+	font-size:25px;
+}
+h2{
+	font-family:square;
+}
+h4{
+	font-family:Sketchy-Night;
+}
+#body{
+	background-color:white;
+}
+#title{
+	border:0px solid white;
+	border-radius: 25px;
+	width:600px;
+	height:600px;
+	position:relative;
+	top:0px;
+}
+#title h1{
+	font-family:Velarah-Regular;
+	color:black;
+	font-size:150px;
+}
+#title p{
+	font-family:supernova;
+	color:white;
+	font-size: 50px;
+}
+#title a:link{
+	font-family:Aclonica;
+	text-decoration: none;
+	background-color:black;
+	border-radius: 25px;
+	color:white;
+	font-size:30px;
+	transition:0.5s;
+	padding:10px;
+}
+#title a:hover{
+	text-decoration: none;
+	background-color:white;
+	color:black;
+	font-size:35px;
+	transition:1s;
+}
+#title a:visited{
+	text-decoration: none;
+	background-color:black;
+	border-radius: 25px;
+	color:white;
+	font-size:30px;
+	transition:0.5s;
+	padding:10px;
+}
+#section1{
+	background-color:black;
+	width:100%;
+	height:auto;
+	position:relative;
+	top:150px;
+	left:0px;
+}
+#section1 a:link{
+	font-family:Aclonica;
+	color:black;
+	font-size:30px;
+	text-decoration:none;
+	opacity: .5;
+	transition:.5s;
+}
+#section1 a:hover{
+	font-size:35px;
+	text-decoration:none;
+	opacity: 1;
+	transition:1s;
+	color:black;
+}
+#section1 a:visited{
+	color:black;
+	font-size:30px;
+	text-decoration:none;
+	opacity: .5;
+}
+#section1 p{
+	opacity:.5;
+	transition:.5s;
+}
+#section1 img{
+	width:400px;
+	height:350px;
+}
+#box{
+	background-color:white;
+	width:75%;
+	height:auto;
+}
+#footer{
+	background-color:black;
+	width:100%;
+	height: auto;
+	position:fixed;
+	left: 0px;
+	bottom:0px;
+}
+#footer a:link{
+	font-family:Aclonica;
+	padding:15px;
+	color:white;
+	text-decoration: none;
+}
+#footer a:hover{
+	font-size:20px;
+}
+#footer a:visited{
+	color: white;
+}
+#footer p{
+	color:white;
+	font-family:Georgia;
+	font-size:15px;
+}
+#story p{
+	padding:45px;
+	color:black;
+	opacity: 1;
+	
+}
