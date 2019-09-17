@@ -1,4 +1,6 @@
-
+<?php
+   include('session.php');
+?>
 <html>
 <body>
 <center>
